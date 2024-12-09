@@ -43,6 +43,19 @@ console.log(arr,"before");
 arr.splice(2,3);
 console.log(arr, "after");
 
+const btn = document.getElementById("btn");
+const btn2 = document.getElementsByClassName("btn");
+const btn3 = document.getElementsByTagName("button");
+
+const btn4 = document.querySelector(".btn");
+const btn5 = document.querySelectorAll(".btn");
+console.log(btn);
+
+const btnClick = () =>{
+    btn.style.backgroundColor = "blue";
+    alert(btn);
+}
+
 
 
 
