@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <!-- inline js -->
-     <button id="btn" class="btn" onclick="btnClick()">Click</button>
-     
+    <!-- <button id="btn" class="btn" onclick="btnClick()">Click</button> -->
 
-     <!-- internal js -->
-      <script>
 
-      </script>
+    <!-- internal js -->
+    <!-- <script>
 
-      <!-- external js -->
-       <script src="./index.js"></script>
+      </script> -->
+
+    <nav  style="height: 100vh; ">
+        <button id="btn" class="btn" onclick="btnClick('red')">  Red</button>
+        <button id="btn2" class="btn2" onclick="btnClick('blue')">Blue</button>
+        <button id="btn3" class="btn3" onclick="btnClick('pink')">Pink</button>
+        <button id="btn4" class="btn4" onclick="btnClick('black')">Black</button>
+        <button id="btn5" class="btn5" onclick="btnClick('purple')">Purple</button>
+    </nav>
+
+
+
+    <!-- external js -->
+    <script src="./index.js"></script>
 </body>
+
 </html>
