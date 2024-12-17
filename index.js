@@ -1,4 +1,4 @@
-console.log("SAmpanna");
+// console.log("SAmpanna");
 
 //object
 
@@ -56,15 +56,59 @@ console.log(arr, "after");
 //     alert(btn);
 // }
 
-const container = document.querySelector("body");
-const btnClick = (color) =>{
-    // btn.style.backgroundColor = "red";
-    container.style.backgroundColor = color;
+// const container = document.querySelector("body");
+// const btnClick = (color) =>{
+//     // btn.style.backgroundColor = "red";
+//     container.style.backgroundColor = color;
     
     
     
     
-}
+// }
+const btn = document.querySelector(".btn");
+const btn2 = document.querySelector(".btn2");
+const sidebar = document.querySelector(".sidebar");
+
+
+btn.addEventListener("click" , ()=> {
+   btn.style.display= "none";
+   btn2.style.display= "block";
+   sidebar.style.marginLeft = "-20rem";
+   
+   
+   
+   
+   
+   
+
+});
+
+btn2.addEventListener('click', ()=>{
+    btn.style.display= "block";
+    btn2.style.display = "none";
+    sidebar.style.marginLeft = "0";
+    
+})
+
+
+// others events
+
+myDiv.addEventListener("keyup", ()=>{
+    myDiv.style.backgroundColr = "blue";
+});
+
+const handleChange = (e) => {
+    alert("hello");
+};
+
+const formInput = document.querySelector("#txt");
+
+formInput.addEventListener("onchange", ()=> {
+    alert("hi");
+});
+
+
+
 
 
 
