@@ -94,7 +94,7 @@ btn2.addEventListener('click', ()=>{
 // others events
 
 myDiv.addEventListener("keyup", ()=>{
-    myDiv.style.backgroundColr = "blue";
+    myDiv.style.backgroundColor = "blue";
 });
 
 const handleChange = (e) => {
